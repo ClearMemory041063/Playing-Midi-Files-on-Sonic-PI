@@ -68,7 +68,11 @@ Run the program
 
 #### Discussion
 
-As a first cut I'm pleased with the results, although the playback has some synchronization problems. This is related to the paradigm shift of timing in Midi files and the way Sonic Pi tracks the time. Other parameters in the Midi file hav ebeen ignored such as the velocity values. 
+As a first cut I'm pleased with the results, although the playback has some synchronization problems. This is related to the paradigm shift of timing in Midi files and the way Sonic Pi tracks the time. Other parameters in the Midi file have been ignored such as the velocity values. 
 The purpose of this posting is to record what has been done so that the experts in Sonic Pi can make suggestions.
 
 [InThread Group]( https://in-thread.sonic-pi.net/)
+
+#### Update
+
+Changed sleep values in PlayMidiCsva.rb" to fix the synchronization problem.

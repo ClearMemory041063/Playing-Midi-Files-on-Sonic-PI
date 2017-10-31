@@ -79,7 +79,7 @@ live_loop :LL1 do
   puts midi2note(voice3[i1][0].to_i),voice3[i1][1]
   if voice3[i1][0]!= ":r"
     play voice3[i1][0].to_i,sustain: voice3[i1][1]
-    sleep 0.00001
+    sleep 0.000001
   else
     sleep voice3[i1][1]
   end
@@ -98,7 +98,7 @@ live_loop :LL2 do
   puts midi2note(voice2[i2][0].to_i),voice2[i2][1]
   if voice2[i2][0]!= ":r"
     play voice2[i2][0].to_i,sustain: voice2[i2][1]
-    sleep 0.001
+    sleep 0.000001
   else
     sleep voice2[i2][1]
   end
