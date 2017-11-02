@@ -1,8 +1,8 @@
-ReadMe.md Bugfix1
+
 
 #### Bugfix1
 
-[Main Read Me]()
+[Main Read Me](  https://github.com/ClearMemory041063/Playing-Midi-Files-on-Sonic-PIReadMe.md Bugfix1)
 
 Fixes the problem of a NoteOn command with Velocity of zero
 
@@ -16,7 +16,7 @@ There is a special case if the velocity is set to zero. The NOTE ONmessage then 
 
 Channel Events
 
-These events are the ìmeat and potatoesî of MIDI files: the actual notes and modifiers that command the instruments to play the music. Each has a MIDI channel number as its first argument, followed by event-specific parameters. To permit programs which process CSV files to easily distinguish them from meta-events, names of channel events all have a suffix of ì_cî.
+These events are the ‚Äúmeat and potatoes‚Äù of MIDI files: the actual notes and modifiers that command the instruments to play the music. Each has a MIDI channel number as its first argument, followed by event-specific parameters. To permit programs which process CSV files to easily distinguish them from meta-events, names of channel events all have a suffix of ‚Äú_c‚Äù.
 
 From Midi to CSV site:
 
@@ -24,7 +24,7 @@ From Midi to CSV site:
 Track, Time, Note_on_c, Channel, Note, Velocity
 Send a command to play the specified Note (Middle C is defined as Note number 60; all other notes are relative in the MIDI specification, but most instruments conform to the well-tempered scale) on the given Channel with Velocity (0 to 127). A Note_on_c event with Velocity zero is equivalent to a Note_off_c.
 Track, Time, Note_off_c, Channel, Note, Velocity
-Stop playing the specified Note on the given Channel. The Velocity should be zero, but you never know what youíll find in a MIDI file.
+Stop playing the specified Note on the given Channel. The Velocity should be zero, but you never know what you‚Äôll find in a MIDI file.
 
 #### Files
 
