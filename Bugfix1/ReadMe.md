@@ -2,7 +2,8 @@
 
 #### Bugfix1
 
-[Main Read Me](  https://github.com/ClearMemory041063/Playing-Midi-Files-on-Sonic-PIReadMe.md Bugfix1)
+[Main Read Me](  https://github.com/ClearMemory041063/Playing-Midi-Files-on-Sonic-PIReadMe.md)
+
 
 Fixes the problem of a NoteOn command with Velocity of zero
 
